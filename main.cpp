@@ -35,7 +35,7 @@ int main()
         cout << "\033[0m" << "2. " << "\x1b[38;5;160mPlayer\033[0m" << " vs " << "\x1b[38;5;160mBot" << endl;
         cout << "\033[0m" << "3. \x1b[38;5;93mReplay\033[0m the previous match" << endl;
         cout << "4. Player's \x1b[38;5;34mInformation\033[0m" << endl;
-        cout << "5. \x1b[38;5;130mGuild\033[0m" << endl;
+        cout << "5. \x1b[38;5;130mGuide\033[0m" << endl;
         cout << "0. \x1b[38;5;160mExit\033[0m\n" << endl;
         cout << "Press \x1b[38;5;27m<Number>\033[0m to choice: ";
         getline(cin, mode);
